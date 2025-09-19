@@ -77,20 +77,54 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 
 ## 🚀 4. Hướng dẫn chạy
 
-Biên dịch chương trình:
+### Yêu cầu hệ thống
+- **JDK 8+** (Java Development Kit)
+- **Eclipse IDE** (có hỗ trợ Java Project)
+- **Git** (nếu muốn clone project từ GitHub)
 
-javac *.java
+---
 
+### Cài đặt project với Eclipse
+1. **Clone project từ GitHub** (nếu dùng Git):
+   ```bash
+   git clone https://github.com/<username>/<repository>.git
+Mở Eclipse → Import project
 
-Chạy server trước:
+Vào File → Import…
 
-java Server
+Chọn Existing Projects into Workspace
 
+Chọn thư mục project vừa clone (hoặc copy source code vào)
 
-Chạy client để gửi hoặc nhận dữ liệu:
+Nhấn Finish
 
-java Client
+Đảm bảo đã cài JDK 8+ trong Eclipse:
 
+Vào Window → Preferences → Java → Installed JREs
+
+Thêm JDK (nếu chưa có) và chọn làm mặc định.
+
+Cách chạy chương trình
+Bước 1. Chạy Server
+Trong Eclipse, mở file Server.java
+
+Nhấn chuột phải → Run As → Java Application
+
+Server sẽ bắt đầu chạy và lắng nghe kết nối UDP.
+
+Bước 2. Chạy Client
+Trong Eclipse, mở file Client.java
+
+Nhấn chuột phải → Run As → Java Application
+
+Ứng dụng Client sẽ mở cửa sổ chọn file (File Chooser).
+
+Chọn bất kỳ file .txt nào từ máy tính của bạn để gửi.
+
+Bước 3. Quá trình gửi file
+Client sẽ gửi file .txt đã chọn tới Server qua UDP Socket.
+
+Server nhận được file và lưu vào thư mục đích đã định nghĩa trong code.
 
 
 ##  5. Liên hệ 
