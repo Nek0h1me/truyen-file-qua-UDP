@@ -31,12 +31,12 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 - Vận dụng kiến thức về lập trình socket trong Java.
 
 ## 🔧 2. Ngôn ngữ lập trình sử dụng: 
-
+<div align="center">
 [![Java](https://img.shields.io/badge/Java-orange?logo=java&logoColor=white)](https://www.java.com/)
 [![UDP Socket](https://img.shields.io/badge/UDP%20Socket-blue?logo=socketdotio&logoColor=white)](https://www.java.com/)
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://www.java.com/)
 [![Git](https://img.shields.io/badge/Git-red?logo=git&logoColor=white)](https://www.java.com/)
-
+</div>
 **Java**: Ngôn ngữ lập trình chính, sử dụng gói `java.net` để xử lý **DatagramSocket** và **DatagramPacket** (UDP), cùng với `java.io` để đọc/ghi file. Phiên bản **Java 8 trở lên** được khuyến nghị để đảm bảo tương thích.  
 
 **UDP Socket**: Giao thức cốt lõi, **không kết nối (connectionless)**, truyền dữ liệu theo gói (datagram), tốc độ nhanh, không đảm bảo thứ tự và độ tin cậy như TCP. Phù hợp cho truyền file nhỏ, ứng dụng chat, hoặc game thời gian thực.  
@@ -52,9 +52,10 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 ---
 
 ### Môi trường chạy  
-
+<div align="center">
 ![JDK](https://img.shields.io/badge/JDK-orange?logo=coffeescript&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode&logoColor=white)
+</div>
 
 - **JDK**: Phiên bản 8 trở lên để biên dịch và chạy chương trình Java.  
 - **VS Code / Eclipse**: IDE để biên dịch, debug và chạy ứng dụng Java, ưu tiên Eclipse để hỗ trợ chạy java tốt hơn.
