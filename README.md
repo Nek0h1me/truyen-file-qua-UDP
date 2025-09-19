@@ -8,9 +8,9 @@ TRUYỀN DẪN FILE BẰNG UDP
 </h2>
 <div align="center">
     <p align="center">
-        <img src="docs/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
-        <img src="docs/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
-        <img src="docs/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
+        <img src="img/aiotlab_logo.png" alt="AIoTLab Logo" width="170"/>
+        <img src="img/fitdnu_logo.png" alt="AIoTLab Logo" width="180"/>
+        <img src="img/dnu_logo.png" alt="DaiNam University Logo" width="200"/>
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
@@ -35,15 +35,15 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 ##   3 Hình ảnh các chức năng 
 
 <div style="text-align:center;">
-  <img src="1.png" alt="Mô tả" style="max-width:100%; display:block; margin:0 auto;">
+  <img src="img/1.png" alt="Mô tả" style="max-width:100%; display:block; margin:0 auto;">
   <p align="center" style="margin:8px 0 0;">1: Server</p>
 </div>
 <div style="text-align:center;">
-  <img src="2.png" alt="Mô tả" style="max-width:100%; display:block; margin:0 auto;">
+  <img src="img/2.png" alt="Mô tả" style="max-width:100%; display:block; margin:0 auto;">
   <p align="center" style="margin:8px 0 0;">2: Client</p>
 </div>
 <div style="text-align:center;">
-  <img src="3.png" alt="Mô tả" style="max-width:100%; display:block; margin:0 auto;">
+  <img src="img/3.png" alt="Mô tả" style="max-width:100%; display:block; margin:0 auto;">
   <p align="center" style="margin:8px 0 0;">3: Chọn file đưa vào Client</p>
 </div>
 
