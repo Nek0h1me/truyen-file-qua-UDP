@@ -87,7 +87,7 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 ### Cài đặt project với Eclipse
 1. **Clone project từ GitHub** (nếu dùng Git):
    ```bash
-   git clone https://github.com/<username>/<repository>.git
+   git clone [https://github.com/Nek0h1me/truyen-file-qua-UDP.git]
 Mở Eclipse → Import project
 
 Vào File → Import…
