@@ -32,6 +32,34 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 
 ## 🔧 2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
 
+![Java](https://img.shields.io/badge/Java-orange?logo=java&logoColor=white)
+![UDP Socket](https://img.shields.io/badge/UDP%20Socket-blue?logo=socketdotio&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-red?logo=git&logoColor=white)
+
+**Java**: Ngôn ngữ lập trình chính, sử dụng gói `java.net` để xử lý **DatagramSocket** và **DatagramPacket** (UDP), cùng với `java.io` để đọc/ghi file. Phiên bản **Java 8 trở lên** được khuyến nghị để đảm bảo tương thích.  
+
+**UDP Socket**: Giao thức cốt lõi, **không kết nối (connectionless)**, truyền dữ liệu theo gói (datagram), tốc độ nhanh, không đảm bảo thứ tự và độ tin cậy như TCP. Phù hợp cho truyền file nhỏ, ứng dụng chat, hoặc game thời gian thực.  
+
+**JDK (Java Development Kit)**: Phiên bản 8 trở lên để biên dịch và chạy code Java. Hỗ trợ sẵn các API mạng (`java.net`) và IO (`java.io`).  
+
+**IDE (Môi trường phát triển)**: Có thể dùng **VS Code** (với extension *Extension Pack for Java*) hoặc **Eclipse**. IDE giúp compile, debug và chạy Java dễ dàng.  
+
+**GitHub**: Nền tảng lưu trữ và chia sẻ repo Git online để hợp tác làm việc nhóm.  
+
+**Git**: Công cụ quản lý phiên bản phân tán, giúp theo dõi và quay lại lịch sử code.  
+
+---
+
+### Môi trường chạy  
+
+![JDK](https://img.shields.io/badge/JDK-orange?logo=coffeescript&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode&logoColor=white)
+
+- **JDK**: Phiên bản 8 trở lên để biên dịch và chạy chương trình Java.  
+- **VS Code / Eclipse**: IDE để biên dịch, debug và chạy ứng dụng Java.
+
+
 ##   3 Hình ảnh các chức năng 
 
 <div style="text-align:center;">
