@@ -45,9 +45,9 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 
 **IDE (Môi trường phát triển)**: Có thể dùng **VS Code** (với extension *Extension Pack for Java*) hoặc **Eclipse**. IDE giúp compile, debug và chạy Java dễ dàng.  
 
-**GitHub**: Nền tảng lưu trữ và chia sẻ repo Git online để hợp tác làm việc nhóm.  
+**GitHub**: Nền tảng lưu trữ và chia sẻ repo Git online.  
 
-**Git**: Công cụ quản lý phiên bản phân tán, giúp theo dõi và quay lại lịch sử code.  
+**Git**: Công cụ quản lý phiên bản phân tán, giúp theo dõi xử lý và tìm lại lịch sử code.  
 
 ---
 
@@ -57,7 +57,7 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 ![VS Code](https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode&logoColor=white)
 
 - **JDK**: Phiên bản 8 trở lên để biên dịch và chạy chương trình Java.  
-- **VS Code / Eclipse**: IDE để biên dịch, debug và chạy ứng dụng Java.
+- **VS Code / Eclipse**: IDE để biên dịch, debug và chạy ứng dụng Java, ưu tiên Eclipse để hỗ trợ chạy java tốt hơn.
 
 
 ##   3 Hình ảnh các chức năng 
