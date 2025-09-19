@@ -32,10 +32,10 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 
 ## 🔧 2. Ngôn ngữ lập trình sử dụng: 
 <div align="center">
-  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-orange?logo=java&logoColor=white"></a>
-  <a href="https://www.java.com/"><img src="https://img.shields.io/badge/UDP%20Socket-blue?logo=socketdotio&logoColor=white"></a>
-  <a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white"></a>
-  <a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-red?logo=git&logoColor=white"></a>
+  <img src="https://img.shields.io/badge/Java-orange?logo=java&logoColor=white&style=flat-square" alt="Java"/>
+  <img src="https://img.shields.io/badge/UDP%20Socket-blue?logo=socketdotio&logoColor=white&style=flat-square" alt="UDP Socket"/>
+  <img src="https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=flat-square" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Git-red?logo=git&logoColor=white&style=flat-square" alt="Git"/>
 </div>
 **Java**: Ngôn ngữ lập trình chính, sử dụng gói `java.net` để xử lý **DatagramSocket** và **DatagramPacket** (UDP), cùng với `java.io` để đọc/ghi file. Phiên bản **Java 8 trở lên** được khuyến nghị để đảm bảo tương thích.  
 
@@ -54,8 +54,8 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 ### Môi trường chạy  
 
 <div align="center">
-  <img src="https://img.shields.io/badge/JDK-orange?logo=coffeescript&logoColor=white" alt="JDK"/>
-  <img src="https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode&logoColor=white" alt="VS Code"/>
+  <img src="https://img.shields.io/badge/JDK-orange?logo=coffeescript&logoColor=white&style=flat-square" alt="JDK"/>
+  <img src="https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode&logoColor=white&style=flat-square" alt="VS Code"/>
 </div>
 
 - **JDK**: Phiên bản 8 trở lên để biên dịch và chạy chương trình Java.  
