@@ -30,12 +30,12 @@ Trang bị cho sinh viên hiểu về cách thức kết nối cơ bản của U
 - Xây dựng chương trình Client – Server bằng ngôn ngữ Java để gửi và nhận file .
 - Vận dụng kiến thức về lập trình socket trong Java.
 
-## 🔧 2. Ngôn ngữ lập trình sử dụng: [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+## 🔧 2. Ngôn ngữ lập trình sử dụng: 
 
-![Java](https://img.shields.io/badge/Java-orange?logo=java&logoColor=white)
-![UDP Socket](https://img.shields.io/badge/UDP%20Socket-blue?logo=socketdotio&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)
-![Git](https://img.shields.io/badge/Git-red?logo=git&logoColor=white)
+[![Java](https://img.shields.io/badge/Java-orange?logo=java&logoColor=white)](https://www.java.com/)
+[![UDP Socket](https://img.shields.io/badge/UDP%20Socket-blue?logo=socketdotio&logoColor=white)](https://www.java.com/)
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://www.java.com/)
+[![Git](https://img.shields.io/badge/Git-red?logo=git&logoColor=white)](https://www.java.com/)
 
 **Java**: Ngôn ngữ lập trình chính, sử dụng gói `java.net` để xử lý **DatagramSocket** và **DatagramPacket** (UDP), cùng với `java.io` để đọc/ghi file. Phiên bản **Java 8 trở lên** được khuyến nghị để đảm bảo tương thích.  
 
