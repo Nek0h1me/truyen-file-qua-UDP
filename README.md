@@ -8,9 +8,9 @@
 </h2>
 <div align="center">
     <p align="center">
-        <img src="docs/aiotlab_logo.png" alt="anh/AIoTLab Logo.png" width="170"/>
-        <img src="docs/fitdnu_logo.png" alt="anh/AIoTLab Logo.png" width="180"/>
-        <img src="docs/dnu_logo.png" alt="anh/DaiNam University Logo.png" width="200"/>
+        <img src="docs/aiotlab_logo.png" alt="anh/AIoTLab_Logo.png" width="170"/>
+        <img src="docs/fitdnu_logo.png" alt="anh/AIoTLab_Logo.png" width="180"/>
+        <img src="docs/dnu_logo.png" alt="anh/DaiNam_University_Logo.png" width="200"/>
     </p>
 
 [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab)
