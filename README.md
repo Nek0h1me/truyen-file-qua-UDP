@@ -85,23 +85,21 @@ IDE: VS Code (nhẹ, tích hợp terminal) hoặc Eclipse (mạnh mẽ, hỗ tr�
 
 Giao diện của Cient
 
-<img width="728" height="484" alt="image" src="" />
+<img width="728" height="484" alt="image" src="anh/2.png" />
 
 Giao diện của Server
 
-<img width="733" height="437" alt="image" src="" />
+<img width="733" height="437" alt="image" src="anh/1.png" />
 
-Chọn file gửi từ Client
+Gửi file từ client sang server và chọn chỗ để lưu
 
-<img width="726" height="481" alt="image" src="" />
-
-Chọn thư mục lưu trữ trên Server
-
-<img width="729" height="494" alt="image" " />
+<img width="726" height="481" alt="image" src="anh/3.png" />
 
 Lịch sử và thông tin file đã được gửi
 
-<img width="1501" height="502" alt="image"" />
+<img width="726" height="481" alt="image" src="anh/4.png" />
+
+
 
 
 ---
