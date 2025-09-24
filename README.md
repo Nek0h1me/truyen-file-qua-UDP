@@ -31,11 +31,28 @@
 
 ---
 
-## 🔧 2. Ngôn ngữ lập trình sử dụng
+## 🔧 2. Ngôn ngữ lập trình sử dụng 
 [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
-- Công nghệ sử dụng
-    - **Java Swing** (tạo giao diện)
-    - **UDP DatagramSocket** (truyền dữ liệu)
+
+Java UDP Socket GitHub Git
+
+Java: Ngôn ngữ lập trình chính, sử dụng gói java.net để xử lý DatagramSocket và DatagramPacket (UDP), cùng với java.io để đọc/ghi file qua stream. Phiên bản Java 8 trở lên được khuyến nghị để đảm bảo tương thích.
+
+UDP Socket: Giao thức cốt lõi, không kết nối (connectionless), truyền dữ liệu theo gói (datagram), tốc độ nhanh, không đảm bảo thứ tự và độ tin cậy như TCP. Phù hợp cho ứng dụng truyền file nhỏ, chat, hoặc game thời gian thực.
+
+JDK (Java Development Kit): Phiên bản 8 trở lên để biên dịch và chạy code Java. Hỗ trợ sẵn các API mạng (java.net) và IO (java.io).
+
+IDE (Môi trường phát triển): Có thể dùng VS Code (với extension "Extension Pack for Java") hoặc Eclipse (phù hợp cho project lớn). IDE giúp compile, debug và chạy Java dễ dàng.
+
+GitHub: Nền tảng lưu trữ và chia sẻ mã nguồn, thuận tiện để quản lý project và làm việc nhóm.
+
+Git: Hệ thống quản lý phiên bản phân tán, hỗ trợ theo dõi, quay lại lịch sử code, và cộng tác hiệu quả.
+
+Môi trường chạy
+
+JDK: Phiên bản 8 trở lên để biên dịch và chạy chương trình Java.
+
+IDE: VS Code (nhẹ, tích hợp terminal) hoặc Eclipse (mạnh mẽ, hỗ trợ project Java phức tạp).
 
 ---
 
@@ -58,25 +75,56 @@ Lịch sử và thông tin file đã được gửi
 
 ---
 
-## ▶️ 4. Cách chạy chương trình
-### 1️⃣ Chạy Server
-- Mở `UDPFileServerGUI.java`
-- Chọn **Port** (mặc định: `8888`)
-- Bấm **Chọn thư mục lưu** để chỉ định nơi nhận file (Nếu không chọn nơi lưu trữ, thư mục sẽ được lưu tại thư mục gốc (Nơi lưu trữ Ứng dụng))
-- Nhấn **Bắt đầu lắng nghe**
+## ▶️ 4.  Hướng dẫn cài đặt và sử dụng
 
-### 2️⃣ Chạy Client
-- Mở `UDPFileClientGUI.java`
-- Nhập **IP** của Server (mặc định: `localhost`)
-- Nhập **Port** (mặc định: `8888`)
-- Chọn file cần gửi và nhấn **Gửi**
+### Yêu cầu hệ thống
+- **JDK 8+** (Java Development Kit)
+- **Eclipse IDE** (có hỗ trợ Java Project)
+- **Git** (nếu muốn clone project từ GitHub)
 
 ---
 
-## 📌 Ghi chú
-- Server phải được khởi động **trước khi Client gửi file**.
-- Nếu chưa chọn thư mục lưu, file sẽ được lưu ngay tại thư mục chạy chương trình.
-- UDP không đảm bảo toàn vẹn gói tin → chỉ phù hợp để demo, với file nhỏ/medium.
+### Cài đặt project với Eclipse
+1. **Clone project từ GitHub** (nếu dùng Git):
+   ```bash
+   git clone https://github.com/<username>/<repository>.git
+Mở Eclipse → Import project
+
+Vào File → Import…
+
+Chọn Existing Projects into Workspace
+
+Chọn thư mục project vừa clone (hoặc copy source code vào)
+
+Nhấn Finish
+
+Đảm bảo đã cài JDK 8+ trong Eclipse:
+
+Vào Window → Preferences → Java → Installed JREs
+
+Thêm JDK (nếu chưa có) và chọn làm mặc định.
+
+Cách chạy chương trình
+Bước 1. Chạy Server
+Trong Eclipse, mở file Server.java
+
+Nhấn chuột phải → Run As → Java Application
+
+Server sẽ bắt đầu chạy và lắng nghe kết nối UDP.
+
+Bước 2. Chạy Client
+Trong Eclipse, mở file Client.java
+
+Nhấn chuột phải → Run As → Java Application
+
+Ứng dụng Client sẽ mở cửa sổ chọn file (File Chooser).
+
+Chọn bất kỳ file .txt nào từ máy tính của bạn để gửi.
+
+Bước 3. Quá trình gửi file
+Client sẽ gửi file .txt đã chọn tới Server qua UDP Socket.
+
+Server nhận được file và lưu vào thư mục đích đã định nghĩa trong code.
 
 ---
    
