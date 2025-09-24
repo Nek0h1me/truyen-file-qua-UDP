@@ -19,8 +19,6 @@
 
 </div>
 
-# 📡 Truyền File Qua UDP
-
 ## 📖 1. Giới thiệu
 Đề tài minh hoạ cách xây dựng một ứng dụng **truyền file qua giao thức UDP** dựa trên mô hình **Client/Server**.  
 Ứng dụng cho phép:
