@@ -32,7 +32,12 @@
 ---
 
 ## 🔧 2. Ngôn ngữ lập trình sử dụng 
-[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com/)
+<div align="center">
+  <img src="https://img.shields.io/badge/Java-orange?logo=java&logoColor=white&style=for-the-badge" alt="Java"/>
+  <img src="https://img.shields.io/badge/UDP%20Socket-blue?logo=socketdotio&logoColor=white&style=for-the-badge" alt="UDP Socket"/>
+  <img src="https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white&style=for-the-badge" alt="GitHub"/>
+  <img src="https://img.shields.io/badge/Git-red?logo=git&logoColor=white&style=for-the-badge" alt="Git"/>
+</div>
 
 Java UDP Socket GitHub Git
 
@@ -49,6 +54,10 @@ GitHub: Nền tảng lưu trữ và chia sẻ mã nguồn, thuận tiện để 
 Git: Hệ thống quản lý phiên bản phân tán, hỗ trợ theo dõi, quay lại lịch sử code, và cộng tác hiệu quả.
 
 Môi trường chạy
+<div align="center">
+  <img src="https://img.shields.io/badge/JDK-green?logo=coffeescript&logoColor=white&style=for-the-badge" alt="JDK"/>
+  <img src="https://img.shields.io/badge/VS%20Code-blue?logo=visualstudiocode&logoColor=white&style=for-the-badge" alt="VS Code"/>
+</div>
 
 JDK: Phiên bản 8 trở lên để biên dịch và chạy chương trình Java.
 
