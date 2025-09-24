@@ -26,23 +26,23 @@
 
 Mục tiêu chính của dự án là minh họa cách thức hoạt động của giao thức UDP trong việc truyền dữ liệu. Mặc dù UDP nổi tiếng là một giao thức "phi kết nối" và không đáng tin cậy, ứng dụng này sẽ cho thấy cách chúng ta có thể xây dựng một cơ chế đảm bảo việc truyền file thành công và toàn vẹn, bằng cách triển khai các tính năng như:
 
-Phân đoạn dữ liệu (Data Segmentation): Chia file lớn thành các gói tin nhỏ để truyền qua mạng.
+ - Phân đoạn dữ liệu (Data Segmentation): Chia file lớn thành các gói tin nhỏ để truyền qua mạng.
 
-Cơ chế xác nhận (Acknowledgement): Gửi các gói tin xác nhận từ Server về Client để đảm bảo gói tin đã được nhận.
+ - Cơ chế xác nhận (Acknowledgement): Gửi các gói tin xác nhận từ Server về Client để đảm bảo gói tin đã được nhận.
 
-Xử lý mất gói (Packet Loss Handling): Phát hiện và yêu cầu gửi lại các gói tin bị mất trên đường truyền.
+ - Xử lý mất gói (Packet Loss Handling): Phát hiện và yêu cầu gửi lại các gói tin bị mất trên đường truyền.
 
 **Cấu trúc của Ứng dụng**
 
 Ứng dụng được thiết kế theo mô hình Client/Server, với hai thành phần chính:
 
-Server: Hoạt động như một máy chủ, lắng nghe các yêu cầu từ Client và nhận các gói dữ liệu đã được gửi đến. Sau khi nhận đủ các gói tin, Server sẽ ghép chúng lại thành một file hoàn chỉnh.
+ - Server: Hoạt động như một máy chủ, lắng nghe các yêu cầu từ Client và nhận các gói dữ liệu đã được gửi đến. Sau khi nhận đủ các gói tin, Server sẽ ghép chúng lại thành một file hoàn chỉnh.
 
-Client: Hoạt động như một máy khách, thực hiện việc chia file thành các gói tin nhỏ và gửi chúng đến Server. Client cũng có nhiệm vụ lắng nghe các phản hồi từ Server để đảm bảo tất cả các gói tin đều được nhận thành công.
+ - Client: Hoạt động như một máy khách, thực hiện việc chia file thành các gói tin nhỏ và gửi chúng đến Server. Client cũng có nhiệm vụ lắng nghe các phản hồi từ Server để đảm bảo tất cả các gói tin đều được nhận thành công.
 
 **Lý do lựa chọn giao thức UDP**
 
-Trong khi giao thức TCP thường được ưu tiên cho việc truyền file nhờ vào tính tin cậy và đảm bảo, đề tài này chọn UDP để khám phá các khía cạnh khác của lập trình mạng. Việc tự xây dựng cơ chế kiểm soát lỗi và đảm bảo dữ liệu trên nền tảng UDP không chỉ giúp hiểu sâu hơn về giao thức này mà còn cung cấp kinh nghiệm thực tế trong việc tối ưu hóa hiệu suất truyền dữ liệu, đặc biệt trong các môi trường mà tốc độ là ưu tiên hàng đầu.
+ - Trong khi giao thức TCP thường được ưu tiên cho việc truyền file nhờ vào tính tin cậy và đảm bảo, đề tài này chọn UDP để khám phá các khía cạnh khác của lập trình mạng. Việc tự xây dựng cơ chế kiểm soát lỗi và đảm bảo dữ liệu trên nền tảng UDP không chỉ giúp hiểu sâu hơn về giao thức này mà còn cung cấp kinh nghiệm thực tế trong việc tối ưu hóa hiệu suất truyền dữ liệu, đặc biệt trong các môi trường mà tốc độ là ưu tiên hàng đầu.
 
 
 ---
