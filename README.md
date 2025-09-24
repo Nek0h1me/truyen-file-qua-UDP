@@ -66,20 +66,26 @@ IDE: VS Code (nhẹ, tích hợp terminal) hoặc Eclipse (mạnh mẽ, hỗ tr�
 ---
 
 ## 🖼 3. Hình ảnh các chức năng
+
 Giao diện của Cient
-<img width="728" height="484" alt="image" src="https://github.com/user-attachments/assets/6928b83a-7d87-4fee-8f33-8aef30b74fc4" />
+
+<img width="728" height="484" alt="image" src="" />
 
 Giao diện của Server
-<img width="733" height="437" alt="image" src="https://github.com/user-attachments/assets/2649ec7c-8fff-475f-996f-2d2ca80f52f8" />
+
+<img width="733" height="437" alt="image" src="" />
 
 Chọn file gửi từ Client
-<img width="726" height="481" alt="image" src="https://github.com/user-attachments/assets/9cec7a3e-9940-463f-bbae-6a4ac33e523b" />
+
+<img width="726" height="481" alt="image" src="" />
 
 Chọn thư mục lưu trữ trên Server
-<img width="729" height="494" alt="image" src="https://github.com/user-attachments/assets/3705e7ef-7a89-4a6b-873d-43c9d2ff6476" />
+
+<img width="729" height="494" alt="image" " />
 
 Lịch sử và thông tin file đã được gửi
-<img width="1501" height="502" alt="image" src="https://github.com/user-attachments/assets/3f0176da-6641-4582-ab58-c5d5f3f06d00" />
+
+<img width="1501" height="502" alt="image"" />
 
 
 ---
@@ -94,6 +100,7 @@ Lịch sử và thông tin file đã được gửi
 ---
 
 ### Cài đặt project với Eclipse
+
 1. **Clone project từ GitHub** (nếu dùng Git):
    ```bash
    git clone https://github.com/<username>/<repository>.git
@@ -113,8 +120,10 @@ Vào Window → Preferences → Java → Installed JREs
 
 Thêm JDK (nếu chưa có) và chọn làm mặc định.
 
-Cách chạy chương trình
+***Cách chạy chương trình:***
+
 Bước 1. Chạy Server
+
 Trong Eclipse, mở file Server.java
 
 Nhấn chuột phải → Run As → Java Application
@@ -122,6 +131,7 @@ Nhấn chuột phải → Run As → Java Application
 Server sẽ bắt đầu chạy và lắng nghe kết nối UDP.
 
 Bước 2. Chạy Client
+
 Trong Eclipse, mở file Client.java
 
 Nhấn chuột phải → Run As → Java Application
@@ -131,13 +141,14 @@ Nhấn chuột phải → Run As → Java Application
 Chọn bất kỳ file .txt nào từ máy tính của bạn để gửi.
 
 Bước 3. Quá trình gửi file
+
 Client sẽ gửi file .txt đã chọn tới Server qua UDP Socket.
 
 Server nhận được file và lưu vào thư mục đích đã định nghĩa trong code.
 
 ---
    
-## 📝 Thông tin cá nhân
+## 📝5: Thông tin cá nhân
 - Nguyễn Cao Tùng - CNTT 16-03
 - Email: nguyentungxneko@gmail.com
 - Phone: 0838986386
